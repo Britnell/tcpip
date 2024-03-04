@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.5.6",
+    "@astrojs/node": "^8.2.3",
     "@astrojs/react": "^3.0.10",
     "@builder.io/qwik": "^1.4.5",
     "@qwikdev/astro": "^0.5.7",
