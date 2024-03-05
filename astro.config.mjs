@@ -8,10 +8,10 @@ import node from "@astrojs/node";
 export default defineConfig({
   integrations: [
     react({
-      include: "**/react/**/*",
+      include: "**/react/**/*.tsx",
     }),
     qwikdev({
-      include: "**/qwik/**/*",
+      include: "**/qwik/**/*.tsx",
     }),
   ],
   output: "hybrid",

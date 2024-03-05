@@ -21,11 +21,11 @@ export const Counter = component$(() => {
   return (
     <div>
       <h1>Counter = {count.value}</h1>
-      <button class=" bg-gray-200 p-2 " onClick$={() => count.value++}>
-        +1
-      </button>
       <button class=" bg-gray-200 p-2 " onClick$={increment}>
         +1
+      </button>
+      <button class=" bg-gray-200 p-2 " onClick$={() => (count.value += 2)}>
+        +2
       </button>
     </div>
   );
